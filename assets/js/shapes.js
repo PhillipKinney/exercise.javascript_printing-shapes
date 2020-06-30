@@ -34,6 +34,16 @@ function getBox(width, height) {
 
 function getBottomLeftTriangle(length) {
     // TODO - write method definition here
+    
+     let output="";
+
+    for (let i=1; i<= length; i++){
+        for(let t=1; t<=i; t++){
+        output+="*"
+        }
+        output+="\n"
+    }    
+        return output 
 }
 
 
