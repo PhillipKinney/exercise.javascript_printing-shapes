@@ -1,6 +1,6 @@
 function getLine(length) {
-    TODO - write method definition here
-    length = 0;
+    // TODO - write method definition here
+    
     
 let output ="";
 for (let i=0; i<length; i++){
@@ -16,23 +16,18 @@ function getBox(width, height) {
     // TODO - write method definition here
 
     
-
-    let wOutput="";
-    let hOutput="";
-    output= hOutput + wOutput
-
-    for (let i=0; i<width; i++){
-        wOutput+= "*"
-       }
-
-
-    for (let k=0; k<height; k++){
-        hOutput+="*\n"
-    }
-
+    let output="";
     
-    document.write(hOutput, wOutput);
-
+ 
+    for (let i=1; i<=height; i++){
+        
+        for (let k=1; k<=width; k++){
+            output+="*" 
+            
+        }
+        output+="\n"
+    }
+         return output
 }
 
 
